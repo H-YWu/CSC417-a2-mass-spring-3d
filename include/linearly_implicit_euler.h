@@ -19,7 +19,8 @@ template<typename FORCE, typename STIFFNESS>
 inline void linearly_implicit_euler(Eigen::VectorXd &q, Eigen::VectorXd &qdot, double dt, 
                             const Eigen::SparseMatrixd &mass,  FORCE &force, STIFFNESS &stiffness, 
                             Eigen::VectorXd &tmp_force, Eigen::SparseMatrixd &tmp_stiffness) {
-    
-
-
+    auto A = mass - pow(dt, 2) * stiffness(q, qdot);
+    auto B = mass * q + dt * force(q, qdot);
+    qdot = A.inverse() * B;
+    q = q + dt * qdot;
 }
