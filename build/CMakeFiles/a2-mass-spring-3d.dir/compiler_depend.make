@@ -37,6 +37,7 @@ CMakeFiles/a2-mass-spring-3d.dir/main.cpp.o: ../main.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -142,8 +143,11 @@ CMakeFiles/a2-mass-spring-3d.dir/main.cpp.o: ../main.cpp \
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/bits/select.h \
   /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/std_abs.h \
   /usr/include/c++/11/cstdio \
   /usr/include/stdio.h \
@@ -152,6 +156,8 @@ CMakeFiles/a2-mass-spring-3d.dir/main.cpp.o: ../main.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -262,6 +268,8 @@ CMakeFiles/a2-mass-spring-3d.dir/main.cpp.o: ../main.cpp \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/climits \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -287,6 +295,7 @@ CMakeFiles/a2-mass-spring-3d.dir/main.cpp.o: ../main.cpp \
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   ../extern/libigl/external/eigen/Eigen/src/Core/NumTraits.h \
@@ -854,6 +863,7 @@ CMakeFiles/a2-mass-spring-3d.dir/shared/src/find_min_vertices.cpp.o: ../shared/s
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -861,7 +871,9 @@ CMakeFiles/a2-mass-spring-3d.dir/shared/src/find_min_vertices.cpp.o: ../shared/s
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/specfun.h \
   /usr/include/c++/11/bits/stl_algobase.h \
   /usr/include/c++/11/bits/functexcept.h \
@@ -907,6 +919,7 @@ CMakeFiles/a2-mass-spring-3d.dir/shared/src/find_min_vertices.cpp.o: ../shared/s
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -973,6 +986,8 @@ CMakeFiles/a2-mass-spring-3d.dir/shared/src/find_min_vertices.cpp.o: ../shared/s
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -1042,6 +1057,8 @@ CMakeFiles/a2-mass-spring-3d.dir/shared/src/find_min_vertices.cpp.o: ../shared/s
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/climits \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -1067,6 +1084,7 @@ CMakeFiles/a2-mass-spring-3d.dir/shared/src/find_min_vertices.cpp.o: ../shared/s
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   ../extern/libigl/external/eigen/Eigen/src/Core/NumTraits.h \
@@ -1278,6 +1296,7 @@ CMakeFiles/a2-mass-spring-3d.dir/shared/src/init_state.cpp.o: ../shared/src/init
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -1285,7 +1304,9 @@ CMakeFiles/a2-mass-spring-3d.dir/shared/src/init_state.cpp.o: ../shared/src/init
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/specfun.h \
   /usr/include/c++/11/bits/stl_algobase.h \
   /usr/include/c++/11/bits/functexcept.h \
@@ -1331,6 +1352,7 @@ CMakeFiles/a2-mass-spring-3d.dir/shared/src/init_state.cpp.o: ../shared/src/init
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -1397,6 +1419,8 @@ CMakeFiles/a2-mass-spring-3d.dir/shared/src/init_state.cpp.o: ../shared/src/init
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -1466,6 +1490,8 @@ CMakeFiles/a2-mass-spring-3d.dir/shared/src/init_state.cpp.o: ../shared/src/init
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/climits \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -1491,6 +1517,7 @@ CMakeFiles/a2-mass-spring-3d.dir/shared/src/init_state.cpp.o: ../shared/src/init
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   ../extern/libigl/external/eigen/Eigen/src/Core/NumTraits.h \
@@ -1775,6 +1802,7 @@ CMakeFiles/a2-mass-spring-3d.dir/shared/src/visualization.cpp.o: ../shared/src/v
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -1782,7 +1810,9 @@ CMakeFiles/a2-mass-spring-3d.dir/shared/src/visualization.cpp.o: ../shared/src/v
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/specfun.h \
   /usr/include/c++/11/bits/stl_algobase.h \
   /usr/include/c++/11/bits/functexcept.h \
@@ -1828,6 +1858,7 @@ CMakeFiles/a2-mass-spring-3d.dir/shared/src/visualization.cpp.o: ../shared/src/v
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -1894,6 +1925,8 @@ CMakeFiles/a2-mass-spring-3d.dir/shared/src/visualization.cpp.o: ../shared/src/v
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -1963,6 +1996,8 @@ CMakeFiles/a2-mass-spring-3d.dir/shared/src/visualization.cpp.o: ../shared/src/v
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/climits \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -1988,6 +2023,7 @@ CMakeFiles/a2-mass-spring-3d.dir/shared/src/visualization.cpp.o: ../shared/src/v
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   ../extern/libigl/external/eigen/Eigen/src/Core/NumTraits.h \
@@ -2508,6 +2544,7 @@ CMakeFiles/a2-mass-spring-3d.dir/src/T_particle.cpp.o: ../src/T_particle.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -2515,7 +2552,9 @@ CMakeFiles/a2-mass-spring-3d.dir/src/T_particle.cpp.o: ../src/T_particle.cpp \
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/specfun.h \
   /usr/include/c++/11/bits/stl_algobase.h \
   /usr/include/c++/11/bits/functexcept.h \
@@ -2561,6 +2600,7 @@ CMakeFiles/a2-mass-spring-3d.dir/src/T_particle.cpp.o: ../src/T_particle.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -2627,6 +2667,8 @@ CMakeFiles/a2-mass-spring-3d.dir/src/T_particle.cpp.o: ../src/T_particle.cpp \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -2696,6 +2738,8 @@ CMakeFiles/a2-mass-spring-3d.dir/src/T_particle.cpp.o: ../src/T_particle.cpp \
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/climits \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -2721,6 +2765,7 @@ CMakeFiles/a2-mass-spring-3d.dir/src/T_particle.cpp.o: ../src/T_particle.cpp \
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   ../extern/libigl/external/eigen/Eigen/src/Core/NumTraits.h \
@@ -3004,6 +3049,7 @@ CMakeFiles/a2-mass-spring-3d.dir/src/V_gravity_particle.cpp.o: ../src/V_gravity_
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -3011,7 +3057,9 @@ CMakeFiles/a2-mass-spring-3d.dir/src/V_gravity_particle.cpp.o: ../src/V_gravity_
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/specfun.h \
   /usr/include/c++/11/bits/stl_algobase.h \
   /usr/include/c++/11/bits/functexcept.h \
@@ -3057,6 +3105,7 @@ CMakeFiles/a2-mass-spring-3d.dir/src/V_gravity_particle.cpp.o: ../src/V_gravity_
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -3123,6 +3172,8 @@ CMakeFiles/a2-mass-spring-3d.dir/src/V_gravity_particle.cpp.o: ../src/V_gravity_
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -3192,6 +3243,8 @@ CMakeFiles/a2-mass-spring-3d.dir/src/V_gravity_particle.cpp.o: ../src/V_gravity_
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/climits \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -3217,6 +3270,7 @@ CMakeFiles/a2-mass-spring-3d.dir/src/V_gravity_particle.cpp.o: ../src/V_gravity_
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   ../extern/libigl/external/eigen/Eigen/src/Core/NumTraits.h \
@@ -3427,6 +3481,7 @@ CMakeFiles/a2-mass-spring-3d.dir/src/V_spring_particle_particle.cpp.o: ../src/V_
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -3434,7 +3489,9 @@ CMakeFiles/a2-mass-spring-3d.dir/src/V_spring_particle_particle.cpp.o: ../src/V_
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/specfun.h \
   /usr/include/c++/11/bits/stl_algobase.h \
   /usr/include/c++/11/bits/functexcept.h \
@@ -3480,6 +3537,7 @@ CMakeFiles/a2-mass-spring-3d.dir/src/V_spring_particle_particle.cpp.o: ../src/V_
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -3546,6 +3604,8 @@ CMakeFiles/a2-mass-spring-3d.dir/src/V_spring_particle_particle.cpp.o: ../src/V_
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -3615,6 +3675,8 @@ CMakeFiles/a2-mass-spring-3d.dir/src/V_spring_particle_particle.cpp.o: ../src/V_
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/climits \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -3640,6 +3702,7 @@ CMakeFiles/a2-mass-spring-3d.dir/src/V_spring_particle_particle.cpp.o: ../src/V_
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   ../extern/libigl/external/eigen/Eigen/src/Core/NumTraits.h \
@@ -3850,6 +3913,7 @@ CMakeFiles/a2-mass-spring-3d.dir/src/assemble_forces.cpp.o: ../src/assemble_forc
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -3857,7 +3921,9 @@ CMakeFiles/a2-mass-spring-3d.dir/src/assemble_forces.cpp.o: ../src/assemble_forc
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/specfun.h \
   /usr/include/c++/11/bits/stl_algobase.h \
   /usr/include/c++/11/bits/functexcept.h \
@@ -3903,6 +3969,7 @@ CMakeFiles/a2-mass-spring-3d.dir/src/assemble_forces.cpp.o: ../src/assemble_forc
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -3969,6 +4036,8 @@ CMakeFiles/a2-mass-spring-3d.dir/src/assemble_forces.cpp.o: ../src/assemble_forc
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -4038,6 +4107,8 @@ CMakeFiles/a2-mass-spring-3d.dir/src/assemble_forces.cpp.o: ../src/assemble_forc
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/climits \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -4063,6 +4134,7 @@ CMakeFiles/a2-mass-spring-3d.dir/src/assemble_forces.cpp.o: ../src/assemble_forc
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   ../extern/libigl/external/eigen/Eigen/src/Core/NumTraits.h \
@@ -4349,6 +4421,7 @@ CMakeFiles/a2-mass-spring-3d.dir/src/assemble_stiffness.cpp.o: ../src/assemble_s
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -4356,7 +4429,9 @@ CMakeFiles/a2-mass-spring-3d.dir/src/assemble_stiffness.cpp.o: ../src/assemble_s
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/specfun.h \
   /usr/include/c++/11/bits/stl_algobase.h \
   /usr/include/c++/11/bits/functexcept.h \
@@ -4402,6 +4477,7 @@ CMakeFiles/a2-mass-spring-3d.dir/src/assemble_stiffness.cpp.o: ../src/assemble_s
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -4468,6 +4544,8 @@ CMakeFiles/a2-mass-spring-3d.dir/src/assemble_stiffness.cpp.o: ../src/assemble_s
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -4537,6 +4615,8 @@ CMakeFiles/a2-mass-spring-3d.dir/src/assemble_stiffness.cpp.o: ../src/assemble_s
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/climits \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -4562,6 +4642,7 @@ CMakeFiles/a2-mass-spring-3d.dir/src/assemble_stiffness.cpp.o: ../src/assemble_s
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   ../extern/libigl/external/eigen/Eigen/src/Core/NumTraits.h \
@@ -4846,6 +4927,7 @@ CMakeFiles/a2-mass-spring-3d.dir/src/d2V_spring_particle_particle_dq2.cpp.o: ../
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -4853,7 +4935,9 @@ CMakeFiles/a2-mass-spring-3d.dir/src/d2V_spring_particle_particle_dq2.cpp.o: ../
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/specfun.h \
   /usr/include/c++/11/bits/stl_algobase.h \
   /usr/include/c++/11/bits/functexcept.h \
@@ -4899,6 +4983,7 @@ CMakeFiles/a2-mass-spring-3d.dir/src/d2V_spring_particle_particle_dq2.cpp.o: ../
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -4965,6 +5050,8 @@ CMakeFiles/a2-mass-spring-3d.dir/src/d2V_spring_particle_particle_dq2.cpp.o: ../
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -5034,6 +5121,8 @@ CMakeFiles/a2-mass-spring-3d.dir/src/d2V_spring_particle_particle_dq2.cpp.o: ../
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/climits \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -5059,6 +5148,7 @@ CMakeFiles/a2-mass-spring-3d.dir/src/d2V_spring_particle_particle_dq2.cpp.o: ../
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   ../extern/libigl/external/eigen/Eigen/src/Core/NumTraits.h \
@@ -5342,6 +5432,7 @@ CMakeFiles/a2-mass-spring-3d.dir/src/dV_gravity_particle_dq.cpp.o: ../src/dV_gra
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -5349,7 +5440,9 @@ CMakeFiles/a2-mass-spring-3d.dir/src/dV_gravity_particle_dq.cpp.o: ../src/dV_gra
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/specfun.h \
   /usr/include/c++/11/bits/stl_algobase.h \
   /usr/include/c++/11/bits/functexcept.h \
@@ -5395,6 +5488,7 @@ CMakeFiles/a2-mass-spring-3d.dir/src/dV_gravity_particle_dq.cpp.o: ../src/dV_gra
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -5461,6 +5555,8 @@ CMakeFiles/a2-mass-spring-3d.dir/src/dV_gravity_particle_dq.cpp.o: ../src/dV_gra
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -5530,6 +5626,8 @@ CMakeFiles/a2-mass-spring-3d.dir/src/dV_gravity_particle_dq.cpp.o: ../src/dV_gra
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/climits \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -5555,6 +5653,7 @@ CMakeFiles/a2-mass-spring-3d.dir/src/dV_gravity_particle_dq.cpp.o: ../src/dV_gra
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   ../extern/libigl/external/eigen/Eigen/src/Core/NumTraits.h \
@@ -5765,6 +5864,7 @@ CMakeFiles/a2-mass-spring-3d.dir/src/dV_spring_particle_particle_dq.cpp.o: ../sr
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -5772,7 +5872,9 @@ CMakeFiles/a2-mass-spring-3d.dir/src/dV_spring_particle_particle_dq.cpp.o: ../sr
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/specfun.h \
   /usr/include/c++/11/bits/stl_algobase.h \
   /usr/include/c++/11/bits/functexcept.h \
@@ -5818,6 +5920,7 @@ CMakeFiles/a2-mass-spring-3d.dir/src/dV_spring_particle_particle_dq.cpp.o: ../sr
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -5884,6 +5987,8 @@ CMakeFiles/a2-mass-spring-3d.dir/src/dV_spring_particle_particle_dq.cpp.o: ../sr
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -5953,6 +6058,8 @@ CMakeFiles/a2-mass-spring-3d.dir/src/dV_spring_particle_particle_dq.cpp.o: ../sr
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/climits \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -5978,6 +6085,7 @@ CMakeFiles/a2-mass-spring-3d.dir/src/dV_spring_particle_particle_dq.cpp.o: ../sr
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   ../extern/libigl/external/eigen/Eigen/src/Core/NumTraits.h \
@@ -6261,6 +6369,7 @@ CMakeFiles/a2-mass-spring-3d.dir/src/fixed_point_constraints.cpp.o: ../src/fixed
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -6268,7 +6377,9 @@ CMakeFiles/a2-mass-spring-3d.dir/src/fixed_point_constraints.cpp.o: ../src/fixed
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/specfun.h \
   /usr/include/c++/11/bits/stl_algobase.h \
   /usr/include/c++/11/bits/functexcept.h \
@@ -6314,6 +6425,7 @@ CMakeFiles/a2-mass-spring-3d.dir/src/fixed_point_constraints.cpp.o: ../src/fixed
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -6380,6 +6492,8 @@ CMakeFiles/a2-mass-spring-3d.dir/src/fixed_point_constraints.cpp.o: ../src/fixed
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -6449,6 +6563,8 @@ CMakeFiles/a2-mass-spring-3d.dir/src/fixed_point_constraints.cpp.o: ../src/fixed
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/climits \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -6474,6 +6590,7 @@ CMakeFiles/a2-mass-spring-3d.dir/src/fixed_point_constraints.cpp.o: ../src/fixed
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   ../extern/libigl/external/eigen/Eigen/src/Core/NumTraits.h \
@@ -6757,6 +6874,7 @@ CMakeFiles/a2-mass-spring-3d.dir/src/mass_matrix_particles.cpp.o: ../src/mass_ma
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -6764,7 +6882,9 @@ CMakeFiles/a2-mass-spring-3d.dir/src/mass_matrix_particles.cpp.o: ../src/mass_ma
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/specfun.h \
   /usr/include/c++/11/bits/stl_algobase.h \
   /usr/include/c++/11/bits/functexcept.h \
@@ -6810,6 +6930,7 @@ CMakeFiles/a2-mass-spring-3d.dir/src/mass_matrix_particles.cpp.o: ../src/mass_ma
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception.h \
   /usr/include/c++/11/bits/exception_ptr.h \
@@ -6876,6 +6997,8 @@ CMakeFiles/a2-mass-spring-3d.dir/src/mass_matrix_particles.cpp.o: ../src/mass_ma
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -6945,6 +7068,8 @@ CMakeFiles/a2-mass-spring-3d.dir/src/mass_matrix_particles.cpp.o: ../src/mass_ma
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/climits \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -6970,6 +7095,7 @@ CMakeFiles/a2-mass-spring-3d.dir/src/mass_matrix_particles.cpp.o: ../src/mass_ma
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   ../extern/libigl/external/eigen/Eigen/src/Core/NumTraits.h \
@@ -7286,6 +7412,7 @@ CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o: ../src/pick_ne
   /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/select2.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
   /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
   /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
@@ -7293,7 +7420,9 @@ CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o: ../src/pick_ne
   /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
   /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
   /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
   /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib.h \
   /usr/include/c++/11/bits/specfun.h \
   /usr/include/c++/11/limits \
   /usr/include/c++/11/tr1/gamma.tcc \
@@ -7323,6 +7452,7 @@ CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o: ../src/pick_ne
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar2.h \
   /usr/include/c++/11/exception \
   /usr/include/c++/11/bits/exception_ptr.h \
   /usr/include/c++/11/bits/cxxabi_init_exception.h \
@@ -7377,6 +7507,8 @@ CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o: ../src/pick_ne
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio2.h \
   /usr/include/c++/11/cerrno \
   /usr/include/errno.h \
   /usr/include/x86_64-linux-gnu/bits/errno.h \
@@ -7441,6 +7573,8 @@ CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o: ../src/pick_ne
   /usr/include/c++/11/cstring \
   /usr/include/string.h \
   /usr/include/strings.h \
+  /usr/include/x86_64-linux-gnu/bits/strings_fortified.h \
+  /usr/include/x86_64-linux-gnu/bits/string_fortified.h \
   /usr/include/c++/11/climits \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
@@ -7466,6 +7600,7 @@ CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o: ../src/pick_ne
   /usr/include/x86_64-linux-gnu/bits/confname.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
   /usr/include/linux/close_range.h \
   ../extern/libigl/external/eigen/Eigen/src/Core/NumTraits.h \
@@ -7953,25 +8088,21 @@ CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o: ../src/pick_ne
 
 /usr/include/c++/11/bits/atomic_base.h:
 
-/usr/include/c++/11/bits/stl_heap.h:
+/usr/include/c++/11/bits/shared_ptr_atomic.h:
 
-/usr/include/c++/11/bits/std_abs.h:
+/usr/include/c++/11/ext/concurrence.h:
 
-/usr/include/c++/11/pstl/execution_defs.h:
+../extern/libigl/include/igl/massmatrix.cpp:
 
-/usr/include/c++/11/bits/vector.tcc:
+/usr/include/c++/11/bits/shared_ptr_base.h:
 
-../extern/libigl/include/igl/unproject.cpp:
+../extern/libigl/include/igl/raytri.c:
 
-/usr/include/c++/11/bits/stl_bvector.h:
+/usr/include/c++/11/bits/align.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+/usr/include/c++/11/bits/stl_raw_storage_iter.h:
 
-../extern/libigl/include/igl/readOBJ.cpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
-
-../extern/libigl/external/eigen/Eigen/SparseCore:
+/usr/include/c++/11/bits/stl_multiset.h:
 
 /usr/include/c++/11/bits/stl_uninitialized.h:
 
@@ -8021,10 +8152,6 @@ CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o: ../src/pick_ne
 
 /usr/include/c++/11/array:
 
-/usr/include/c++/11/bits/specfun.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
-
 /usr/include/GL/gl.h:
 
 ../extern/libigl/include/igl/quat_to_mat.h:
@@ -8056,8 +8183,6 @@ CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o: ../src/pick_ne
 /usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
 
 /usr/include/c++/11/cstring:
-
-../extern/libigl/external/eigen/Eigen/src/Geometry/Translation.h:
 
 /usr/include/c++/11/bits/parse_numbers.h:
 
@@ -8091,21 +8216,9 @@ CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o: ../src/pick_ne
 
 /usr/include/c++/11/istream:
 
-/usr/include/c++/11/bits/locale_facets.tcc:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
-/usr/include/c++/11/bits/this_thread_sleep.h:
-
-../extern/libigl/external/eigen/Eigen/src/IterativeLinearSolvers/BasicPreconditioners.h:
-
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
 
 /usr/include/c++/11/bits/streambuf_iterator.h:
-
-../extern/libigl/include/igl/opengl/glfw/ViewerPlugin.h:
-
-/usr/include/c++/11/cwctype:
 
 /usr/include/c++/11/tr1/poly_hermite.tcc:
 
@@ -8199,9 +8312,49 @@ CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o: ../src/pick_ne
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/c++/11/bits/this_thread_sleep.h:
+
+../extern/libigl/external/eigen/Eigen/src/IterativeLinearSolvers/BasicPreconditioners.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio2.h:
+
+/usr/include/c++/11/bits/locale_facets.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/stdio.h:
+
+../extern/libigl/external/eigen/Eigen/src/SparseCore/SparseTranspose.h:
+
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
 /usr/include/c++/11/cstdio:
+
+/usr/include/c++/11/bits/std_abs.h:
+
+/usr/include/c++/11/bits/stl_heap.h:
+
+../extern/libigl/include/igl/opengl/glfw/ViewerPlugin.h:
+
+/usr/include/c++/11/cwctype:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
+
+../extern/libigl/include/igl/readOBJ.cpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
+
+/usr/include/c++/11/bits/stl_bvector.h:
+
+../extern/libigl/external/eigen/Eigen/SparseCore:
+
+../extern/libigl/external/eigen/Eigen/src/Geometry/Translation.h:
+
+/usr/include/x86_64-linux-gnu/bits/select2.h:
 
 /usr/include/c++/11/bits/locale_classes.tcc:
 
@@ -8275,6 +8428,14 @@ CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o: ../src/pick_ne
 
 ../extern/libigl/external/eigen/Eigen/src/SparseCore/SparseView.h:
 
+/usr/include/c++/11/bits/specfun.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+
+/usr/include/c++/11/bits/allocated_ptr.h:
+
+/usr/include/assert.h:
+
 ../extern/libigl/external/eigen/Eigen/src/Core/util/DisableStupidWarnings.h:
 
 /usr/include/c++/11/tr1/poly_laguerre.tcc:
@@ -8284,10 +8445,6 @@ CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o: ../src/pick_ne
 /usr/include/c++/11/bits/stl_iterator_base_types.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
-
-/usr/include/c++/11/bits/stl_tempbuf.h:
-
-../extern/libigl/external/eigen/Eigen/src/QR/FullPivHouseholderQR.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
@@ -8365,6 +8522,14 @@ CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o: ../src/pick_ne
 
 /usr/include/c++/11/bits/memoryfwd.h:
 
+/usr/include/x86_64-linux-gnu/bits/select.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+../include/V_gravity_particle.h:
+
+/usr/include/c++/11/backward/binders.h:
+
 /usr/include/stdc-predef.h:
 
 /usr/include/errno.h:
@@ -8372,6 +8537,10 @@ CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o: ../src/pick_ne
 /usr/include/c++/11/bits/alloc_traits.h:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/usr/include/c++/11/bits/stl_tempbuf.h:
+
+../extern/libigl/external/eigen/Eigen/src/QR/FullPivHouseholderQR.h:
 
 /usr/include/c++/11/cmath:
 
@@ -8485,6 +8654,10 @@ CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o: ../src/pick_ne
 
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
+/usr/include/c++/11/new:
+
+/usr/include/c++/11/bits/sstream.tcc:
+
 ../extern/libigl/include/igl/slice.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
@@ -8492,10 +8665,6 @@ CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o: ../src/pick_ne
 /usr/include/c++/11/bits/stl_iterator.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
-
-/usr/include/c++/11/new:
-
-/usr/include/c++/11/bits/sstream.tcc:
 
 /usr/include/c++/11/clocale:
 
@@ -8569,8 +8738,6 @@ CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o: ../src/pick_ne
 
 ../extern/libigl/include/igl/verbose.h:
 
-/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
-
 /usr/include/c++/11/bits/ios_base.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
@@ -8584,10 +8751,6 @@ CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o: ../src/pick_ne
 ../extern/libigl/include/igl/unique_rows.h:
 
 ../extern/libigl/external/eigen/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h:
-
-/usr/include/x86_64-linux-gnu/bits/time.h:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
 
 /usr/include/c++/11/bits/std_function.h:
 
@@ -8625,10 +8788,6 @@ CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o: ../src/pick_ne
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
 
-../include/V_gravity_particle.h:
-
-/usr/include/c++/11/backward/binders.h:
-
 ../extern/libigl/external/imgui/imconfig.h:
 
 ../extern/libigl/external/eigen/Eigen/src/Core/arch/SSE/PacketMath.h:
@@ -8643,15 +8802,21 @@ CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o: ../src/pick_ne
 
 /usr/include/linux/limits.h:
 
-../extern/libigl/include/igl/massmatrix.cpp:
-
-/usr/include/c++/11/bits/shared_ptr_base.h:
-
 /usr/include/c++/11/tr1/exp_integral.tcc:
+
+/usr/include/c++/11/bits/vector.tcc:
+
+../extern/libigl/include/igl/unproject.cpp:
+
+/usr/include/c++/11/pstl/execution_defs.h:
 
 ../extern/libigl/external/eigen/Eigen/src/Core/arch/SSE/Complex.h:
 
 /usr/include/strings.h:
+
+/usr/include/x86_64-linux-gnu/bits/strings_fortified.h:
+
+/usr/include/x86_64-linux-gnu/bits/string_fortified.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
 
@@ -8695,9 +8860,13 @@ CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o: ../src/pick_ne
 
 /usr/include/c++/11/bits/functexcept.h:
 
+/usr/include/x86_64-linux-gnu/bits/stdlib.h:
+
 /usr/include/x86_64-linux-gnu/bits/getopt_core.h:
 
 ../extern/libigl/external/eigen/Eigen/src/LU/Inverse.h:
+
+/usr/include/x86_64-linux-gnu/bits/unistd.h:
 
 ../extern/libigl/external/eigen/Eigen/src/Core/Functors.h:
 
@@ -8712,6 +8881,8 @@ CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o: ../src/pick_ne
 ../extern/libigl/external/eigen/Eigen/src/Core/GenericPacketMath.h:
 
 ../extern/libigl/external/eigen/Eigen/src/Core/arch/SSE/MathFunctions.h:
+
+/usr/include/x86_64-linux-gnu/bits/wchar2.h:
 
 ../extern/libigl/external/eigen/Eigen/src/Core/DenseCoeffsBase.h:
 
@@ -8765,9 +8936,9 @@ CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o: ../src/pick_ne
 
 ../extern/libigl/external/eigen/Eigen/src/Core/ForceAlignedAccess.h:
 
-/usr/include/c++/11/bits/algorithmfwd.h:
-
 /usr/include/c++/11/bits/cxxabi_forced.h:
+
+/usr/include/c++/11/bits/algorithmfwd.h:
 
 ../extern/libigl/external/eigen/Eigen/src/Core/ReturnByValue.h:
 
@@ -8887,6 +9058,12 @@ CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o: ../src/pick_ne
 
 ../extern/libigl/external/eigen/Eigen/src/Core/products/TriangularSolverMatrix.h:
 
+/usr/include/c++/11/memory:
+
+../extern/libigl/external/eigen/Eigen/src/Core/products/TriangularSolverVector.h:
+
+../extern/libigl/external/eigen/Eigen/src/Core/CoreIterators.h:
+
 ../extern/libigl/external/eigen/Eigen/src/Core/Select.h:
 
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
@@ -8924,8 +9101,6 @@ CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o: ../src/pick_ne
 /usr/include/c++/11/algorithm:
 
 ../extern/libigl/include/igl/opengl/gl.h:
-
-/usr/include/c++/11/bits/shared_ptr_atomic.h:
 
 /usr/include/c++/11/iostream:
 
@@ -8995,10 +9170,6 @@ CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o: ../src/pick_ne
 
 ../extern/libigl/external/eigen/Eigen/src/Eigenvalues/RealSchur.h:
 
-../extern/libigl/include/igl/raytri.c:
-
-/usr/include/c++/11/bits/align.h:
-
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
 ../extern/libigl/external/eigen/Eigen/src/Eigenvalues/HessenbergDecomposition.h:
@@ -9025,8 +9196,6 @@ CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o: ../src/pick_ne
 
 ../shared/include/EigenTypes.h:
 
-/usr/include/c++/11/bits/stl_multiset.h:
-
 ../extern/libigl/include/igl/matrix_to_list.h:
 
 /usr/include/c++/11/map:
@@ -9050,8 +9219,6 @@ CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o: ../src/pick_ne
 ../extern/libigl/external/eigen/Eigen/src/SparseCore/AmbiVector.h:
 
 ../extern/libigl/external/eigen/Eigen/src/SparseCore/SparseMatrix.h:
-
-../extern/libigl/external/eigen/Eigen/src/SparseCore/SparseTranspose.h:
 
 ../extern/libigl/include/igl/boundary_facets.h:
 
@@ -9172,17 +9339,3 @@ CMakeFiles/a2-mass-spring-3d.dir/src/pick_nearest_vertices.cpp.o: ../src/pick_ne
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
 /usr/include/c++/11/set:
-
-../extern/libigl/external/eigen/Eigen/src/Core/products/TriangularSolverVector.h:
-
-../extern/libigl/external/eigen/Eigen/src/Core/CoreIterators.h:
-
-/usr/include/c++/11/memory:
-
-/usr/include/c++/11/bits/stl_raw_storage_iter.h:
-
-/usr/include/assert.h:
-
-/usr/include/c++/11/bits/allocated_ptr.h:
-
-/usr/include/c++/11/ext/concurrence.h:

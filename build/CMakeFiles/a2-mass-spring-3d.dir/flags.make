@@ -6,5 +6,5 @@ CXX_DEFINES = -DIMGUI_IMPL_OPENGL_LOADER_GLAD
 
 CXX_INCLUDES = -I/mnt/d/Users/yang_/github/CSC417-a2-mass-spring-3d/shared/include -I/mnt/d/Users/yang_/github/CSC417-a2-mass-spring-3d/include -I/mnt/d/Users/yang_/github/CSC417-a2-mass-spring-3d/extern/libigl/include -I/mnt/d/Users/yang_/github/CSC417-a2-mass-spring-3d/extern/libigl/external/glad/include -I/mnt/d/Users/yang_/github/CSC417-a2-mass-spring-3d/extern/libigl/external/glfw/include -I/mnt/d/Users/yang_/github/CSC417-a2-mass-spring-3d/extern/libigl/external/libigl-imgui/. -I/mnt/d/Users/yang_/github/CSC417-a2-mass-spring-3d/extern/libigl/external/libigl-imgui/.. -I/mnt/d/Users/yang_/github/CSC417-a2-mass-spring-3d/extern/libigl/external/libigl-imgui/../imgui/examples -isystem /mnt/d/Users/yang_/github/CSC417-a2-mass-spring-3d/extern/libigl/cmake/../include -isystem /mnt/d/Users/yang_/github/CSC417-a2-mass-spring-3d/extern/libigl/cmake/../external/eigen
 
-CXX_FLAGS =  -fPIC
+CXX_FLAGS =  -fPIC -O3 -DNDEBUG
 

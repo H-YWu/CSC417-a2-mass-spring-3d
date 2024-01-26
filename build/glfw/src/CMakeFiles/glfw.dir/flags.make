@@ -6,7 +6,7 @@ C_DEFINES = -D_GLFW_USE_CONFIG_H
 
 C_INCLUDES = -I/mnt/d/Users/yang_/github/CSC417-a2-mass-spring-3d/extern/libigl/external/glfw/include -I/mnt/d/Users/yang_/github/CSC417-a2-mass-spring-3d/extern/libigl/external/glfw/src -I/mnt/d/Users/yang_/github/CSC417-a2-mass-spring-3d/build/glfw/src
 
-C_FLAGS =  -fPIC -fPIC -Wall
+C_FLAGS =  -fPIC -O3 -DNDEBUG -fPIC -Wall
 
 # Custom flags: glfw/src/CMakeFiles/glfw.dir/context.c.o_FLAGS = -Wdeclaration-after-statement
 

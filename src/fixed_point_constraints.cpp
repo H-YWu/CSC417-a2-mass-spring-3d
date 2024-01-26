@@ -1,18 +1,21 @@
 #include <fixed_point_constraints.h>
 #include <algorithm>
+
 void fixed_point_constraints(Eigen::SparseMatrixd &P, unsigned int q_size, const std::vector<unsigned int> indices) {
-    P.resize(3 * (q_size - indices.size()), 3 * q_size);
-    int id = 0, cnt = 0;
-    std::vector<Eigen::Triplet<int>> triple;
-    for (int i = 0; i < q_size; i ++) {
-        if (i == indices[id]) {
+    // q = P^T \hat{q} + q_{fixed}
+    //  P(k * 3 + j, i * 3 + j) = 1 for k = all indices and i = not fixed indices in q; j = 0, 1, 2
+    int n = q_size / 3;
+    P.resize(3 * (n - indices.size()), q_size);
+    int id = 0, k = 0;
+    // Check all indices
+    for (unsigned int i = 0; i < n; i ++) {
+        if (i == indices[id]) { // jump fixed
             id ++;
-            continue;
         } else {
             for (int j = 0; j < 3; j ++) {
-                triple.push_back(Eigen::Triplet<int>(i + j, cnt, 1));
+                P.insert(k + j, i * 3 + j) = 1;
             }
+            k += 3;
         }
     }
-    P.setFromTriplets(triple.begin(), triple.end());
 }

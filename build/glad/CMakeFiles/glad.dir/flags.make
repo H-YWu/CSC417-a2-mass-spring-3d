@@ -6,5 +6,5 @@ C_DEFINES =
 
 C_INCLUDES = -I/mnt/d/Users/yang_/github/CSC417-a2-mass-spring-3d/extern/libigl/external/glad/include
 
-C_FLAGS =  -fPIC -fPIC
+C_FLAGS =  -fPIC -O3 -DNDEBUG -fPIC
 
