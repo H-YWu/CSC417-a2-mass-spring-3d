@@ -1,6 +1,8 @@
 #include <iostream>
 #include <thread>
 
+#include <cstdlib>
+
 #include <visualization.h>
 #include <igl/edges.h>
 #include <igl/edge_lengths.h>
@@ -108,6 +110,19 @@ bool draw(igl::opengl::glfw::Viewer & viewer) {
 }
 
 int main(int argc, char **argv) {
+
+    if (argc > 1) {
+        char *endptr;
+        double user_k = strtod(argv[1], &endptr);
+        int ok = endptr == argv[1] + strlen(argv[1]);
+        if (ok) {
+            k = user_k;
+        } else {
+            std::cerr << "\tERROR: command line usage: [executable] [k]" << std::endl
+                      << "\t[k] is a double value, the stiffness of each spring.\n"
+                      << "\tuse the default value of siffness: " << k << std::endl;
+        }
+    }
 
     std::cout<<"Start A2\n";
 
