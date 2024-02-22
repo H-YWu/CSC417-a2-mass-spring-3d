@@ -18,7 +18,7 @@ void assemble_forces(Eigen::VectorXd &f, Eigen::Ref<const Eigen::VectorXd> q, Ei
         Eigen::Vector3d q1 = q.segment(p1, 3);
         Eigen::Vector6d springForce;
         dV_spring_particle_particle_dq(springForce, q0, q1, l0(i), k);
-        f.segment(p0, 3) += springForce.segment(0, 3); 
-        f.segment(p1, 3) += springForce.segment(3, 3); 
+        f.segment(p0, 3) -= springForce.segment(0, 3); 
+        f.segment(p1, 3) -= springForce.segment(3, 3); 
     }
 }
